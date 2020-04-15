@@ -4,11 +4,6 @@ const userModel=require('./model');
 // const {addUser,removeUser,getUser,getUsersInRoom}=require('./user')
 
 
-router.get("/", (req, res) => {
-    
-  res.send({ response: "Server is running." }).status(200);
-});
-
 router.get('/clearDb',(req,res)=>{
   userModel.deleteMany().then((data)=>{
     if(data){
