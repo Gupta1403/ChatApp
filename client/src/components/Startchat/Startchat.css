@@ -1,0 +1,28 @@
+.boxstyle{
+    float:left;
+    margin:10px;
+    height:600px;
+    width:800px;
+    overflow:auto;
+    /* background-color: black; */
+    
+}
+
+@media only screen and (max-width:768px){
+    .boxstyle{
+        
+        width:100%;
+    }
+}
+.boxstyle {width: 8.33%;}
+.boxstyle {width: 16.66%;}
+.boxstyle {width: 25%;}
+.boxstyle {width: 33.33%;}
+.boxstyle {width: 41.66%;}
+.boxstyle {width: 50%;}
+.boxstyle {width: 58.33%;}
+.boxstyle {width: 66.66%;}
+.boxstyle {width: 75%;}
+.boxstyle {width: 83.33%;}
+.boxstyle {width: 91.66%;}
+.boxstyle {width: 100%;}
